@@ -1,0 +1,7 @@
+## Start
+```
+docker run -ti --rm -e DISPLAY=unix$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v /home/jie/download:/home/smplayer/videos --name smplayer jsu/smplayer
+```
+
+## Problem
+SMPlayer UI is open, but can't play video. Go to smplayer View -> mplayer/mpv log to see the error.
